@@ -33,7 +33,7 @@ RegisterServerEvent('c-waterloss:server:takeinwaterphone', function()
         end
     end
 end)
-c-waterloss:client:notify
+
 RegisterServerEvent('c-waterloss:server:takeinwaterradio', function()
     local src = source
 	local Player = QBCore.Functions.GetPlayer(src)
