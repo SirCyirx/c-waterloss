@@ -28,7 +28,7 @@ brokenradio                        = { name = 'brokenradio', label = 'Damaged Ra
 
 # Dependencies
 1. [qb-core](https://github.com/qbcore-framework/qb-core)
-2. [qb-inventory](https://github.com/qbcore-framework/qb-inventory/releases/tag/v1) or [lj-inventory](https://github.com/loljoshie/lj-inventory/releases/tag/1.2)
+2. [qb-inventory](https://github.com/qbcore-framework/qb-inventory/releases/tag/v1) or [lj-inventory](https://github.com/loljoshie/lj-inventory/releases/tag/1.2) or [ox_inventory](https://github.com/overextended/ox_inventory)
 
 # Optional dependencies
 1. [ox_lib](https://github.com/overextended/ox_lib/releases) 
@@ -36,6 +36,6 @@ brokenradio                        = { name = 'brokenradio', label = 'Damaged Ra
 Put this into your cfg in this in order
 ```
 ensure qb-core
-ensure qb-inventory or lj-inventory
+ensure qb-inventory or lj-inventory or ox_inventory
 ensure C-WaterLoss
 ```

@@ -1,7 +1,7 @@
 Config = Config or {}
 
-Config.NotifyType = 'qb' -- [qb] or [Okok] or [ox] or [mythic]
-Config.Inventory = 'qb' -- [qb] or [lj]
+Config.NotifyType = "ox" -- [qb] or [Okok] or [ox] or [mythic]
+Config.Inventory = 'ox' -- [qb] or [lj] or [ox]
 
 Config.PhoneName = "phone"
 Config.RadioName = "radio"
@@ -9,7 +9,7 @@ Config.RadioName = "radio"
 Config.BrokenPhoneName = "brokenphone"
 Config.BrokenRadioName = "brokenradio"
 
-Config.BrokenItems = true -- If set true you will be given broken items for when you enter water
+Config.BrokenItems = false -- If set true you will be given broken items for when you enter water
 Config.Giveback = false -- If set true when you come out of the water you get your phone and radio back 
 -- you can only have 1 true at the time
 
