@@ -1,9 +1,8 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
 game 'gta5'
 author 'SirCyrix'
-description 'C-WaterLoss'
-version '1.0.1'
-
+description 'C-WaterLoss, Waterloss script for when you enter the water you lose your phone and radio items'
+version '1.2'
 
 client_scripts {
     'client/*.lua'

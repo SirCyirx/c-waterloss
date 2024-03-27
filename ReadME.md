@@ -2,7 +2,7 @@
 [Discord](https://discord.gg/YvThXdz59G)
 
 
-# Preview Updated
+# Preview OLD
 [Video](https://streamable.com/por9u4)
 
 # Feature
@@ -16,14 +16,7 @@
 1. Download From [github](https://github.com/SirCyirx/C-WaterLoss)
 2. Rename The Folder From C-WaterLoss-main to C-WaterLoss.
 3. Put The Folder In Your Resources Folder.
-4. use this path [qb]/qb-core/shared/items.lua and put this anywhere
-```lua
-brokenphone                        = { name = 'brokenphone', label = 'Damaged Iphone', weight = 1000, type = 'item', image = 'phone.png', unique = true, useable = false, shouldClose = false, combinable = nil, description = 'Broken Iphone that no longer works. Where can i fix it???' },
-```
-```lua
-brokenradio                        = { name = 'brokenradio', label = 'Damaged Radio', weight = 1000, type = 'item', image = 'radio.png', unique = true, useable = false, shouldClose = false, combinable = nil, description = 'Broken Iphone that no longer works. Where can i fix it???' },
-```
-
+4. Add the items for your Inventory script check INSTALL folder
 5. Restart Your Server.
 
 # Dependencies
