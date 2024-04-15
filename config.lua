@@ -13,7 +13,7 @@ Config.BrokenRadioName = "brokenradio"
 
 -- you can only have 1 true at the time
 Config.BrokenItems = false -- If set true you will be given broken items for when you enter water
-Config.Giveback = true -- If set true when you come out of the water you get your phone and radio back 
+Config.Giveback = false -- If set true when you come out of the water you get your phone and radio back 
 
 Config.Lang = {
     ['broken_in_water_phone'] = "Your phone is now damaged and you need to repair before you can use it again",
