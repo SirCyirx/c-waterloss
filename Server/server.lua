@@ -1,7 +1,7 @@
 if Config.Core == "qb-core" then
 local QBCore = exports['qb-core']:GetCoreObject()
 
-RegisterServerEvent('c-waterloss:server:takephone', function(source)
+RegisterServerEvent('c-waterloss:server:takephone', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
   if Config.Inventory == "qb" or Config.Inventory == "lj" then
@@ -23,7 +23,7 @@ RegisterServerEvent('c-waterloss:server:takephone', function(source)
     end
 end)
 
-RegisterServerEvent('c-waterloss:server:takeradio', function(source)
+RegisterServerEvent('c-waterloss:server:takeradio', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
   if Config.Inventory == "qb" or Config.Inventory == "lj" then
@@ -45,7 +45,7 @@ RegisterServerEvent('c-waterloss:server:takeradio', function(source)
     end
 end)
 
-RegisterServerEvent('c-waterloss:server:givebackphone', function(source)
+RegisterServerEvent('c-waterloss:server:givebackphone', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
   if Config.Inventory == "qb" or Config.Inventory == "lj" then
@@ -58,7 +58,7 @@ RegisterServerEvent('c-waterloss:server:givebackphone', function(source)
     end
 end)
 
-RegisterServerEvent('c-waterloss:server:givebackradio', function(source)
+RegisterServerEvent('c-waterloss:server:givebackradio', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
   if Config.Inventory == "qb" or Config.Inventory == "lj" then
@@ -74,7 +74,7 @@ end) end
 
 
 if Config.Core == "esx" or Config.Core == "ox" then
-RegisterServerEvent('c-waterloss:server:takephone', function(source)
+RegisterServerEvent('c-waterloss:server:takephone', function()
     local src = source
        exports.ox_inventory:RemoveItem(src, Config.PhoneName, 1)
   if Config.BrokenItems == true then
@@ -85,7 +85,7 @@ RegisterServerEvent('c-waterloss:server:takephone', function(source)
     end
 end)
 
-RegisterServerEvent('c-waterloss:server:takeradio', function(source)
+RegisterServerEvent('c-waterloss:server:takeradio', function()
     local src = source
        exports.ox_inventory:RemoveItem(src, Config.RadioName, 1)
   if Config.BrokenItems == true then
@@ -96,13 +96,13 @@ RegisterServerEvent('c-waterloss:server:takeradio', function(source)
     end
 end)
 
-RegisterServerEvent('c-waterloss:server:givebackphone', function(source)
+RegisterServerEvent('c-waterloss:server:givebackphone', function()
     local src = source
        exports.ox_inventory:AddItem(src, Config.PhoneName, 1)
        NotifyServerAlert(src, {Config.Lang['notie']}, Config.Lang['give_phone_back'], 'error')
 end)
 
-RegisterServerEvent('c-waterloss:server:givebackradio', function(source)
+RegisterServerEvent('c-waterloss:server:givebackradio', function()
     local src = source
        exports.ox_inventory:AddItem(src, Config.RadioName, 1)
        NotifyServerAlert(src, {Config.Lang['notie']}, Config.Lang['give_radio_back'], 'error')

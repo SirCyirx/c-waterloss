@@ -32,11 +32,11 @@ function PlayerSwimming()
   elseif Config.Inventory == "ox" then
     local HasPhone = exports.ox_inventory:GetItemCount(Config.PhoneName)
     local HasRadio = exports.ox_inventory:GetItemCount(Config.RadioName)
-  if HasPhone then
+  if HasPhone == 1 then
        TriggerServerEvent('c-waterloss:server:takephone')
        GivePhoneBack = true
     end
-  if HasRadio then
+  if HasRadio == 1 then
        TriggerServerEvent('c-waterloss:server:takeradio')
        GiveRadioBack = true
  end end
@@ -72,10 +72,10 @@ function PlayerSwimming()
   elseif Config.Inventory == "ox" then
     local HasPhone = exports.ox_inventory:GetItemCount(Config.PhoneName)
     local HasRadio = exports.ox_inventory:GetItemCount(Config.RadioName)
-  if HasPhone then
+  if HasPhone == 1 then
        TriggerServerEvent('c-waterloss:server:takephone')
     end
-  if HasRadio then
+  if HasRadio == 1 then
        TriggerServerEvent('c-waterloss:server:takeradio')
    end end
       end

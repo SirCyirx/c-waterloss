@@ -1,5 +1,3 @@
-local QBCore = exports['qb-core']:GetCoreObject()
-
 Config = Config or {}
 
 Config.Core = "qb-core" -- ["qb-core"] or ["esx] or ["ox"] If you are using esx or ox this will only work if you have ox_inventory
