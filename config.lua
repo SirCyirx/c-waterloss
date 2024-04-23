@@ -1,6 +1,8 @@
-QBCore = exports['qb-core']:GetCoreObject()
+local QBCore = exports['qb-core']:GetCoreObject()
 
 Config = Config or {}
+
+Config.Core = "qb-core" -- ["qb-core"] or ["esx] or ["ox"] If you are using esx or ox this will only work if you have ox_inventory
 
 Config.NotifyType = "ox" -- ["qb"] or ["Okok"] or ["ox"] or ["mythic"]
 Config.Inventory = "ox" -- ["qb"] or ["lj"] or ["ox"]
@@ -25,7 +27,7 @@ Config.Lang = {
     ['notie'] = "Notification"
 }
 
-function Notificationsv(src, titletext, msgtext, type)
+function NotifyServerAlert(src, titletext, msgtext, type)
     if Config.NotifyType == "qb" then
         if type == 'inform' then
            local info = 'primary'
