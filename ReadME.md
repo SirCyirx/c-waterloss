@@ -1,13 +1,12 @@
 # C-Waterloss
-[Discord](https://discord.gg/YvThXdz59G)
+[Discord](https://discord.gg/PV3X2h5TTG)
 
 
-# Preview OLD
+# Preview
 [Video](https://streamable.com/por9u4)
 
 # Feature
-- Removes phone and radio when in water and with the config you can give back items when out of water
-- Lots of config options
+- Removes phone and radio when in water with config options, give back items when out of water or get broken items for when going in the water
 - Optimized at 0.00ms idle and 0.01ms while in use
 - Drag and drop
 - Open Source
@@ -16,7 +15,7 @@
 1. Download From [github](https://github.com/SirCyirx/C-WaterLoss)
 2. Rename The Folder From C-WaterLoss-main to C-WaterLoss.
 3. Put The Folder In Your Resources Folder.
-4. Add the items for your Inventory script check INSTALL folder
+4. Add the items for your Inventory script check INSTALL folder.
 5. Restart Your Server.
 
 # Dependencies

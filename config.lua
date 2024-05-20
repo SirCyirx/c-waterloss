@@ -7,10 +7,8 @@ Config.Inventory = "ox" -- ["qb"] or ["lj"] or ["ox"]
 
 Config.PhoneName = "phone" -- Put the item name of your phone default item name is ("phone")
 Config.RadioName = "radio" -- Put the item name of your radio default item name is ("radio")
-
 Config.BrokenPhoneName = "brokenphone"
 Config.BrokenRadioName = "brokenradio"
-
 -- you can only have 1 true at the time
 Config.BrokenItems = false -- If set true you will be given broken items for when you enter water
 Config.Giveback = false -- If set true when you come out of the water you get your phone and radio back 

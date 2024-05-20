@@ -83,11 +83,11 @@ function PlayerSwimming()
 end
 
 CreateThread(function()
-    while true do
-        Wait(1000)
-        local playerPed = PlayerPedId()
-        if IsEntityInWater(playerPed) then
-            PlayerSwimming()
-      end
-   end
+while true do
+       Wait(1000)
+    local playerPed = PlayerPedId()
+  if IsEntityInWater(playerPed) then
+       PlayerSwimming()
+       end
+    end
 end)
